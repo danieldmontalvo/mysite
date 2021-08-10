@@ -147,6 +147,12 @@ p {
     margin-left: 80px;
 }
 
+.headshot:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
 .headshot-container {
     display: flex;
     align-items: center;
@@ -158,6 +164,13 @@ p {
     box-shadow: 9px 9px 20px rgb(197, 195, 195);
     margin: 5px;
 }
+
+.project-card:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+    
 
 .project-container {
     display: flex;
