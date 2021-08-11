@@ -145,10 +145,11 @@ p {
     width: 300px;
     border-radius: 150px;
     margin-left: 80px;
+    box-shadow: 9px 9px 20px rgba(100, 199, 216, 0.995);    
 }
 
 .headshot:hover {
-  transform: scale(1.075);
+  transform: scale(1.075), rotate(30deg);
   transition: 0.2s ease-in;
   cursor: pointer;
 }
