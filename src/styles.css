@@ -146,12 +146,11 @@ p {
     border-radius: 150px;
     margin-left: 80px;
     box-shadow: 9px 9px 20px rgb(255,215,0);  
-    transition: 1s background ease-in, 500ms transform ease-out 1s; 
 }
 
 .headshot:hover {
   transform: scale(1.075),rotate(30deg);
-  transition: 0.2s ease-in;
+  transition: 0.3s ease-in;
   cursor: crosshair;
 }
 
