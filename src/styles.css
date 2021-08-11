@@ -53,7 +53,7 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 p {
@@ -145,13 +145,14 @@ p {
     width: 300px;
     border-radius: 150px;
     margin-left: 80px;
-    box-shadow: 9px 9px 20px rgba(100, 199, 216, 0.995);    
+    box-shadow: 9px 9px 20px rgb(255,215,0);  
+    transition: 1s background ease-in, 500ms transform ease-out 1s; 
 }
 
 .headshot:hover {
-  transform: scale(1.075), rotate(30deg);
+  transform: scale(1.075),rotate(30deg);
   transition: 0.2s ease-in;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 .headshot-container {
