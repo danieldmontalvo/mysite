@@ -158,6 +158,7 @@ p {
 .headshot-container {
     display: flex;
     align-items: center;
+    transform: rotate(45deg);
 }
 
 .project-card {
