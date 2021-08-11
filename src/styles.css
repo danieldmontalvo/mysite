@@ -1,5 +1,4 @@
 
-
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -55,6 +54,9 @@ h1 {
 h2 {
     font-size: 70px;
 }
+h3 {
+    font-size: 35px;
+}
 
 p {
     margin: 0;
@@ -93,6 +95,8 @@ p {
 
 .button:hover {
     background-color: #efd64b;
+    transform: scale(1.075);
+  transition: 0.2s ease-in;
 }
 
 .button:active {
@@ -124,8 +128,12 @@ p {
     margin: 30px;
 }
 .social {
-    margin: 20px;
-    
+    margin: 20px; 
+}
+.social:hover {
+    background-color: #efd64b;
+    transform: scale(1.075);
+  transition: 0.2s ease-in;
 }
 
 .sub-section {
@@ -149,15 +157,14 @@ p {
 }
 
 .headshot:hover {
-  transform: scale(1.075),rotate(30deg);
-  transition: 0.3s ease-in;
+    transform: rotate(15deg);
+    transition: 0.2s ease-in;
   cursor: crosshair;
 }
 
 .headshot-container {
     display: flex;
     align-items: center;
-    transform: rotate(45deg);
 }
 
 .project-card {
